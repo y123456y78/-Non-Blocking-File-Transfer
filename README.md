@@ -1,4 +1,4 @@
-# Non-Blocking-File-Transfer  
+#Non-Blocking-File-Transfer  
 
 This is a pratice project of Intro. to Network Programming.
 ====================================
@@ -11,10 +11,10 @@ When a new client connects to the server, the server should transmit all the fil
 
 ./make run  
 `Compile client and server program`  
-./server <port>  
+./server &lt;port&gt;  
 `Run the server on specific port`  
-./client <ip> <port> <username>  
+./client &ltip> &ltport&gt; &ltusername&gt;  
 `login the client as different User`  
 Client can enter two command to upload a file and sleep  
-put <filename>  
-sleep <sleep second>  
+put &ltfilename&gt;  
+sleep &ltsleep second&gt;  
